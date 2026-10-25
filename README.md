@@ -2,21 +2,20 @@
 
 ## Project Overview
 
-This project analyzes fashion retail transaction data using Python to understand sales performance, customer behavior, product preferences, discounts, and product returns.
+This project uses Python to analyze fashion retail sales data and explore customer behavior, product performance, sales trends, discounts, and returns.
 
-The project combines data cleaning, feature engineering, exploratory data analysis, statistical visualizations, and business-oriented analysis to generate insights that can support retail decision-making.
+The objective is to transform raw retail data into useful business insights through data cleaning, feature engineering, exploratory data analysis, and visualization.
 
 ## Objectives
 
-* Analyze revenue and sales performance across product categories.
-* Identify seasonal and monthly sales patterns.
-* Investigate customer purchasing behavior.
-* Compare product return rates across categories and price tiers.
-* Evaluate the relationship between discounts, sales, and returns.
-* Explore brand, color, size, and customer feedback patterns.
-* Develop actionable recommendations from the analysis.
+* Analyze sales and revenue trends.
+* Understand customer purchasing behavior.
+* Compare product category and brand performance.
+* Investigate discounts and return rates.
+* Explore seasonal purchasing patterns.
+* Develop data-driven business recommendations.
 
-## Tools and Technologies
+## Technologies Used
 
 * Python
 * Pandas
@@ -25,47 +24,55 @@ The project combines data cleaning, feature engineering, exploratory data analys
 * Seaborn
 * Jupyter Notebook
 
-## Project Workflow
-
-1. Load and inspect the dataset.
-2. Check missing values, duplicates, and data types.
-3. Clean data and validate important fields.
-4. Create features from purchase dates, discounts, age, and prices.
-5. Perform univariate, bivariate, and multivariate analysis.
-6. Analyze business questions related to revenue, customers, products, and returns.
-7. Summarize findings and develop recommendations.
-
-## Key Analysis Areas
-
-* Revenue by product category and location.
-* Monthly revenue and purchase trends.
-* Return rates by category, gender, and price tier.
-* Discount band performance.
-* Customer purchase frequency and spending.
-* Brand ratings and recommendation click rates.
-* Seasonal product and category performance.
-
-## Repository Structure
+## Project Structure
 
 ```text
 Fashion-Retail-Sales-Analysis/
 ├── data/
+│   └── README.md
 ├── notebooks/
 │   └── Fashion.ipynb
 ├── reports/
+│   └── key_findings.md
 ├── images/
+│   └── dashboard_preview.png
+├── src/
+│   └── data_cleaning.py
+├── README.md
 ├── requirements.txt
-├── .gitignore
-└── README.md
+└── .gitignore
 ```
+
+## Project Workflow
+
+1. Data loading and inspection
+2. Data cleaning and validation
+3. Feature engineering
+4. Exploratory data analysis
+5. Data visualization
+6. Business analysis
+7. Findings and recommendations
+
+## Repository Contents
+
+* `notebooks/Fashion_Retail_Sales_Analysis.ipynb`: Main analysis notebook.
+* `data/README.md`: Dataset information and access instructions.
+* `reports/key_findings.md`: Business findings and recommendations.
+* `images/dashboard_preview.png`: Preview of an important visualization.
+* `src/data_cleaning.py`: Reusable data-cleaning functions.
 
 ## Installation
 
-Clone the repository and install the required packages:
+Clone this repository:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/Fashion-Retail-Sales-Analysis.git
 cd Fashion-Retail-Sales-Analysis
+```
+
+Install the dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -79,25 +86,21 @@ Open `notebooks/Fashion_Retail_Sales_Analysis.ipynb`.
 
 ## Dataset
 
-The notebook expects a fashion retail dataset containing fields such as purchase date, price, quantity, sales amount, category, brand, customer ID, rating, and return status.
-
-Add the original dataset's source and download instructions here. The dataset is not included by default.
+The dataset is not included by default. See `data/README.md` for information about its source and access instructions.
 
 ## Results
 
-Add verified findings, important visualizations, and business recommendations after running the notebook successfully.
+See `reports/key_findings.md` for the findings added after completing the analysis.
 
 ## Future Improvements
 
 * Customer segmentation using RFM analysis.
-* Predictive modeling for return-risk estimation.
-* Additional product and brand performance analysis.
-* An interactive Power BI dashboard.
-* Automated data quality checks.
+* Interactive Power BI dashboard.
+* Advanced product performance analysis.
+* Predictive modeling for product returns.
 
 ## Author
 
 Diksha Manekar
 
-Data Analytics | Python | Pandas | Power BI | SQL
-
+Data Analytics | Python | Pandas | Power BI 
